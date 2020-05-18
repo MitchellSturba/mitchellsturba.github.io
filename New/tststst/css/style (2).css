@@ -1,0 +1,28 @@
+#hov {
+    opacity: 0.9;
+}
+
+#hov:hover {
+    opacity: 1;
+}
+
+html {
+    background: url("back.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Bold.ttf);
+  }
+
+h1 {
+    font-family: OpenSans;
+}
+
+p {
+    font-family: OpenSans; 
+}
