@@ -1,0 +1,40 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#intro {
+    background: url("img/back.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#Experiences {
+    background-color: #F3EFE0;
+}
+
+#Contact {
+    background-color: #4A4E4E;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(AvenirNextLTPro-Regular.otf);
+}
+
+#opensans {
+    font-family: OpenSans;
+}
