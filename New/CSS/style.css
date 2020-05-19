@@ -21,10 +21,13 @@ html {
     background-color: #F3EFE0;
 }
 
+<<<<<<< HEAD
 #Contact {
     background-color: #443938;
 }
 
+=======
+>>>>>>> 2100bb33ae591c7eb7f35cdfd3f31c98aff440d5
 @font-face {
     font-family: OpenSans;
     src: url(OpenSans-Bold.ttf);
