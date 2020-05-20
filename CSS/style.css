@@ -22,7 +22,23 @@ html {
 }
 
 #Contact {
-    background-color: #4A4E4E;
+    background-color: #434242;
+}
+
+#hov {
+    opacity: 0.9;
+}
+
+#hov:hover {
+    opacity: 1;
+}
+
+#hovWhite{
+    opacity: 0.6;
+}
+
+#hovWhite:hover {
+    opacity: 1;
 }
 
 @font-face {
