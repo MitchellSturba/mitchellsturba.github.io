@@ -11,8 +11,8 @@ body{
 @media (max-width: 767px){
     h2{
       font-size: 50px !important;
-      padding-top: 50px !important;
-      line-height: 42px !important;
+      padding-top: 60px !important;
+      line-height: 65px !important;
     }
   } 
 
