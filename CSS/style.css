@@ -29,6 +29,10 @@ html {
     opacity: 0.9;
 }
 
+#tester-md{
+    border-top-right-radius: 10px;
+}
+
 #hov:hover {
     opacity: 1;
 }
