@@ -46,8 +46,12 @@ body{
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
       }
-
-  } 
+      
+    #cont {
+        width: 100% !important;
+    }
+  }
+  
 
 #ProfileColor{
     border-bottom-left-radius: 10px;
