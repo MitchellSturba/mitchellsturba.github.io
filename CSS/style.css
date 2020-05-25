@@ -51,6 +51,12 @@ body{
         width: 100% !important;
     }
   }
+
+@media (max-width: 992px){
+    #contactBut {
+        display: none !important;
+    }
+}
   
 
 #ProfileColor{
