@@ -63,7 +63,12 @@ body{
     }
 }
 
-@media (min-width: 1200px) { 
+@media (max-width: 1200px) { 
+    #cont {
+        width: 935px;
+    }
+ }
+ @media (min-width: 1200px) { 
     #cont {
         width: 935px;
     }
