@@ -49,14 +49,14 @@ body{
         border-top-right-radius: 0px ;
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
-      }
-
-    #cont {
-        width: 80%;
     }
 
     #contactBut {
         display: none !important;
+    }
+
+    #cont {
+        width: 80%;
     }
   }
 
