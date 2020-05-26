@@ -31,10 +31,6 @@ body{
     #profileIcon {
         width: 85px !important;
     }
-
-    #cont {
-        width: 400px !important;
-    }
   } 
 
 /* Small Screen Size */
@@ -59,11 +55,16 @@ body{
         display: none !important;
     }
 
+    #cont {
+        width: 75% !important;
+    }
 }
 
-#cont {
-    width: 940px;
-}
+@media (min-width: 1200px) { 
+    #cont {
+        width: 935px;
+    }
+ }
 
 #ProfileColor{
     border-bottom-left-radius: 10px;
