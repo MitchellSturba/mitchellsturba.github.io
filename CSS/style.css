@@ -9,7 +9,7 @@ body{
 }
 
 /* small screen size */
-@media (max-width: 575.98px){
+@media (max-width: 575px){
     h2{
         font-size: 40px !important;
         padding-top: 60px !important;
@@ -38,7 +38,7 @@ body{
   } 
 
 /* medium Screen Size */
-@media (max-width: 767.98px){
+@media (max-width: 767px){
     h2{
       font-size: 50px !important;
       padding-top: 60px !important;
@@ -61,19 +61,19 @@ body{
   }
 
   /* Large Devices */
-@media (max-width: 991.98px){
+@media (max-width: 991px){
     #cont {
         width: 750px;
     }
 }
 
 /* Extra large */
- @media (max-width: 1199.98px) { 
+ @media (max-width: 1199px) { 
     #cont {
         width: 935px;
     }
  }
- @media (min-width: 1199.98px) { 
+ @media (min-width: 1199px) { 
     #cont {
         width: 935px;
     }
