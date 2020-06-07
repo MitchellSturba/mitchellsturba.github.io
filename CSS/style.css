@@ -248,6 +248,9 @@ html {
     font-family: OpenSans;
 }
 
+.abilHov:hover {
+  background-color: rgb(240,240,240);
+}
 
 .softwareanim {
   border-right: solid 3px rgb(0,0,0,0);
