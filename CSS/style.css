@@ -65,6 +65,11 @@ body{
     #centerOnSmall {
       text-align: center !important;
     }
+
+    #showonsmall {
+      display: block !important;
+      align: center !important;
+    }
   }
 
   /* Large Devices */
