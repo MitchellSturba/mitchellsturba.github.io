@@ -35,6 +35,10 @@ body{
     #cont {
         width: 100% !important;
     }
+
+    #centerOnSmall {
+      text-align: center !important;
+    }
   } 
 
 /* medium Screen Size */
@@ -57,6 +61,9 @@ body{
 
     #cont {
         width: 80%;
+    }
+    #centerOnSmall {
+      text-align: center !important;
     }
   }
 
