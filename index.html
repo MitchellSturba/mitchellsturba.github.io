@@ -36,7 +36,15 @@ M.S
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
-  
+  <script>
+    function hover(element) {
+  element.setAttribute('src', 'Images/Paprwip.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'Images/Papr.png');
+}
+  </script>
 </head>
 <body>
 
@@ -516,11 +524,11 @@ M.S
 
       <div class="row pb-3 pt-0">
         <div class="col-6 col-lg-3 mx-0 mb-5 px-1 text-center">
-          <a href="https://github.com/MitchellSturba/Papr" target="_blank" rel="noopener noreferrer"><img src="Images/Papr.png" id="projIcon" style="border-radius: 10%; width: 190px;"></a>
+          <a href="https://github.com/MitchellSturba/Papr" target="_blank" rel="noopener noreferrer"><img src="Images/Papr.png" onmouseover="hover(this);" onmouseout="unhover(this);" id="projIcon" style="border-radius: 10%; width: 190px;"></a>
         </div>
         <div class="col-6 col-lg-3 mx-0 px-0 pt-1">
           <a href="https://github.com/MitchellSturba/Papr" target="_blank" rel="noopener noreferrer"><h3 style="font-family: AvenirNext; color: #1375EC;">Papr</h3></a>
-          <p>An app made during the Corona Virus pandemic that lets the user locate stores near them with emergency supplies in stock.</p>
+          <p>An app made during the Corona Virus pandemic that lets the user locate stores near them where they can purchase emergency supplies.</p>
         </div>
         <div class="col-6 col-lg-3 mx-0 mb-5 px-1 text-center">
           <a href="https://github.com/MitchellSturba/Path-Finder" target="_blank" rel="noopener noreferrer"><img src="Images/PathFinder.png" id="projIcon" style="border-radius: 10%; width: 190px;"></a>
@@ -542,6 +550,8 @@ M.S
 
     </div>
   </div>
+
+
   <!-- End of Projects -->
 
   <!-- Start of Contact -->
