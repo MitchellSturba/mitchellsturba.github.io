@@ -1,5 +1,5 @@
 <h3>Personal Webpage Resume</h3>
 <hr>
-https://mitchellsturba.github.io/
+https://mitchellsturba.com
 
 ![HomePage](Images/Screenshot.png)
