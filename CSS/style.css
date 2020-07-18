@@ -107,6 +107,11 @@ html {
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
+
+    @media (max-width: @iphone-screen) {
+      background-attachment: scroll;
+  }
 }
 
 #Experiences {
