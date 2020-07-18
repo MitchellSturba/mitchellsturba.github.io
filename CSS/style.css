@@ -100,7 +100,21 @@ html {
     scroll-behavior: smooth;
 }
 
-#intro {
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  #intro {
+    background: url("img/back.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+
+@supports not (-webkit-touch-callout: none) {
+  #intro {
     background: url("img/back.jpg")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,16 +122,7 @@ html {
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-#ci-hero-11 .widget-wrap , #ci-hero-12 .widget-wrap {
-
-    background-attachment: initial;
-
-}
+  }
 }
 
 #Experiences {
