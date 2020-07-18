@@ -101,17 +101,17 @@ html {
 }
 
 #intro {
-    background: url("img/back.jpg")no-repeat center center fixed;
+    background: url("img/back.jpg")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
 
-    @media (max-width: @iphone-screen) {
-      background-attachment: scroll;
-  }
+.no-touch #intro {
+  background-attachment: fixed;
 }
 
 #Experiences {
