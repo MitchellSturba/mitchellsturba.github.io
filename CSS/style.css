@@ -110,6 +110,7 @@ html {
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: scroll;
+    overflow-y: scroll;
   }
 }
 
