@@ -35,6 +35,10 @@ body{
     #cont {
         width: 100% !important;
     }
+
+    #centerOnSmall {
+      text-align: center !important;
+    }
   } 
 
 /* medium Screen Size */
@@ -57,6 +61,14 @@ body{
 
     #cont {
         width: 80%;
+    }
+    #centerOnSmall {
+      text-align: center !important;
+    }
+
+    #showonsmall {
+      display: block !important;
+      align: center !important;
     }
   }
 
@@ -88,13 +100,30 @@ html {
     scroll-behavior: smooth;
 }
 
-#intro {
-    background: url("img/back.jpg")no-repeat center center fixed;
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  #intro {
+    background: url("img/back.jpg")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
+    overflow-y: scroll;
+  }
+}
+
+@supports not (-webkit-touch-callout: none) {
+  #intro {
+    background: url("img/back.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 #Experiences {
@@ -305,5 +334,30 @@ html {
   100% {
     -webkit-transform: translateY(-5px);
             transform: translateY(-5px);
+  }
+}
+
+.navbar {
+  min-height: 20px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    line-height: 27px;
   }
 }
