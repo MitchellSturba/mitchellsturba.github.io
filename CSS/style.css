@@ -293,7 +293,7 @@ html {
 
 /* Animation */
 .softwareanim {
-  animation: animated-text 1.2s steps(29,end) 1s 1 normal both,
+  animation: animated-text 1.2s steps(29,end) 1s 1 normal both, /* faster now*/
              animated-cursor 600ms steps(29,end) 6;
 }
 
