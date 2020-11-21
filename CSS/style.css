@@ -116,7 +116,7 @@ html {
 
 @supports not (-webkit-touch-callout: none) {
   #intro {
-    background: url("img/back1.jpg")no-repeat center center;
+    background: url("img/back2.jpg")no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
