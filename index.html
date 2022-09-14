@@ -29,8 +29,9 @@ M.S
   <link rel="stylesheet" href="https://mitchellsturba.com/CSS/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="https://mitchellsturba.com/CSS/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="https://mitchellsturba.com/CSS/style.css">
+  <!-- <link rel="stylesheet" href="https://mitchellsturba.com/CSS/style.css?v=1.2"> -->
+  <link rel="stylesheet" href="CSS/style.css">
+  
 
   <!-- animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -122,13 +123,13 @@ M.S
       <div class="col-12 col-md-4">
         <div class="row">
           <div class="col">
-            <h3 id="centerOnSmall" style="font-family: AvenirNext; color: #1375EC;">Details</h3 id="centerOnSmall">
-            <p id="centerOnSmall" class="mb-0" style="font-weight: bold;">Name:</p id="centerOnSmall">
-            <p id="centerOnSmall" class="mt-0">Mitchell Sturba</p id="centerOnSmall">
-            <p id="centerOnSmall" class="mb-0" style="font-weight: bold;">Age:</p>
-            <p id="centerOnSmall" class="mt-0">23 years</p>
-            <p id="centerOnSmall" class="mb-0" style="font-weight: bold;">Location:</p>
-            <p id="centerOnSmall" class="mt-0">Windsor, Ontario, Canada, Earth</p>
+            <h3 class="centerOnSmall" style="font-family: AvenirNext; color: #1375EC;">Details</h3 id="centerOnSmall">
+            <p class="mb-0 centerOnSmall" style="font-weight: bold;">Name:</p id="centerOnSmall">
+            <p class="mt-0 centerOnSmall">Mitchell Sturba</p id="centerOnSmall">
+            <p class="mb-0 centerOnSmall" style="font-weight: bold;">Age:</p>
+            <p id ="myAge" class="mt-0 centerOnSmall">23 years</p>
+            <p class="mb-0 centerOnSmall" style="font-weight: bold;">Location:</p>
+            <p class="mt-0 centerOnSmall">Montreal, Québec, Canada</p>
           </div>
         </div>
       </div>
@@ -138,7 +139,7 @@ M.S
     </div>
 
     <hr style="border-top: 1px solid #C5CECE;">
-    <!-- University of windsor Shield and text -->
+    <!-- University of Windsor Shield and text -->
 
     <div class="row text-center">
       <div class="col">
@@ -169,9 +170,8 @@ M.S
         <div class="row">
           <div class="col">
             <h3 class="text-center display-4" style="font-family: AvenirNext; color: #1375EC;">Experience</h3>
-            <p class="text-center" style="font-family: AvenirNext; font-size: 18px; color: grey;">"The first step is to
-              establish that something is possible; then probability will occur." <br>-<b style="font-weight: bold;">
-                Elon Musk</b></p>
+            <p class="text-center" style="font-family: AvenirNext; font-size: 18px; color: grey;">"Learning is an experience, everything else is just information."<br>-<b style="font-weight: bold;">
+              Albert Einstein</b></p>
           </div>
         </div>
         <hr style="border-top: 1px solid #C5CECE;">
@@ -182,15 +182,15 @@ M.S
       <div class="col">
         <h3 style="font-family: AvenirNext; color: #1375EC; font-weight: bold;">Education</h3>
         <p class="mt-4 mb-0" style="font-weight: bold; font-size: 18px;">University of Windsor</p>
-        <p class="mt-1">Sep 2017 - Present</p>
+        <p class="mt-1">Sep 2017 - April 2021</p>
       </div>
       <div class="col">
-        <p class="mt-5 pt-2 mb-0" style="font-weight: bold; font-size: 15px;">BSC Computer Science [Honours] -
+        <p class="mt-5 pt-2 mb-0" style="font-weight: bold; font-size: 15px;">BSc Computer Science [Honours] -
           Specializing in Software Engineering</p>
         <p class="mt-1">Software Engineering is the application of engineering principles for designing, development,
-          maintenance, testing, and evaluation of computer software. Noteable courses include: Advanced Object Oriented
+          maintenance, testing, and evaluation of computer software. Notable courses include: Advanced Object Oriented
           Systems Design Using C++, Data Structures &amp; Algorithms, and Obj-Oriented Programming Using Java.</p>
-        <p style="color: #0E55AC"> <img src="Images/glyph.png" style="width:20px;">Windsor, Ontario</p>
+        <p style="color: #1375EC"> <img src="Images/glyph.png" style="width:20px;">Windsor, Ontario</p>
       </div>
     </div>
     <hr style="border-top: 1px solid #C5CECE;">
@@ -199,14 +199,28 @@ M.S
       <div class="col">
         <h3 style="font-family: AvenirNext; color: #1375EC; font-weight: bold;">Experience</h3>
         <p class="mt-4 mb-0" style="font-weight: bold; font-size: 18px;">Unity Technologies</p>
-        <p class="mt-1 mb-0">May 2021 - August 2021</p>
+        <p class="mt-1 mb-0">January 2022 - Present</p>
+        <p id="timeworked" class="mt-1 mb-0"></p>
       </div>
       <div class="col">
-        <p class="mt-5 pt-2 mb-0" style="font-weight: bold; font-size: 15px;">Software Developer Intern</p>
+        <p class="mt-5 pt-2 mb-0" style="font-weight: bold; font-size: 15px;">Software Developer</p>
+        <p class="mt-1">As a software developer I develop, build, and maintain multiple packages for the third-party ecosystem team. I have a myriad of technical responsibilities from front-end UI to back-end development and participate in the classic scrum framework.</p>
+        <p style="color:#1375EC"> <img src="Images/glyph.png" style="width:20px;">Montreal, Quebec | <a href ="https://unity.com/" target="_blank"><img src="Images/link.png" style="width:18px;"> Unity.com</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <p class="mt-4 mb-0" style="font-weight: bold; font-size: 18px;">Unity Technologies</p>
+        <p class="mt-1 mb-0">May 2021 - August 2021</p>
+        <p class="mt-1 mb-0">(4 months)</p>
+      </div>
+      <div class="col">
+        <p class="mt-4 mb-0" style="font-weight: bold; font-size: 15px;">Software Developer Intern</p>
         <p class="mt-1">
-            As an intern, I contributed to the third-party ecosystem team by adding features and tests to the package signing initiative. I participated in daily standup meetings and completed a variety of tasks ranging from front-end UI implementations to back-end package validations. The internship had a strong focus on quality which was reflected in the suite of tests I wrote to ensure a set of standards were met by packages prior to publishing.
-        </p>
-        <p style="color: #0E55AC"> <img src="Images/glyph.png" style="width:20px;">Montreal, Quebec (Remote)</p>
+          As an intern, I contributed to the third-party ecosystem team by adding features and tests to the package signing initiative. I participated in daily standup meetings and completed a variety of tasks ranging from front-end UI implementations to back-end package validations.
+      </p>
+      <p style="color: #1375EC"> <img src="Images/glyph.png" style="width:20px;">Montreal, Quebec | <a href ="https://unity.com/" target="_blank"><img src="Images/link.png" style="width:18px;"> Unity.com</a></p>
       </div>
     </div>
 
@@ -214,11 +228,12 @@ M.S
       <div class="col">
         <p class="mt-4 mb-0" style="font-weight: bold; font-size: 18px;">Tapas Games</p>
         <p class="mt-1 mb-0">Sep 2020 - Mar 2021</p>
+        <p class="mt-1 mb-0">(6 months)</p>
       </div>
       <div class="col">
         <p class="mt-4 mb-0" style="font-weight: bold; font-size: 15px;">Developer</p>
         <p class="mt-1">As a developer, I created mobile game prototypes using the Unity game engine. Additionally, I determined the schedule and coordinated the timeline for each deliverable. A key element to my position was communication with my team in order to ensure maximum success of the final vision.</p>
-        <p style="color: #0E55AC"> <img src="Images/glyph.png" style="width:20px;">Berlin, Germany (Remote)</p>
+        <p style="color: #1375EC"> <img src="Images/glyph.png" style="width:20px;">Berlin, Germany (Remote) | <a href ="https://apps.apple.com/lk/developer/tapas-games/id1506905284" target="_blank"><img src="Images/link.png" style="width:18px;"> Tapas Games</a></p>
       </div>
     </div>
 
@@ -233,7 +248,7 @@ M.S
       <div class="col">
         <p class="mt-4 mb-0" style="font-weight: bold; font-size: 15px;">Teaching Assistant</p>
         <p class="mt-1">As a teaching assistant in the computer science department, I led and instructed students in Java and C based laboratory classes. Additionally, I proctored/graded midterms and exams in various courses such as Intro to Algorithms I, Intro to Algorithms II, and Key Concepts to Computer Science.</p>
-        <p style="color: #0E55AC"> <img src="Images/glyph.png" style="width:20px;">Windsor, Ontario</p>
+        <p style="color: #1375EC"> <img src="Images/glyph.png" style="width:20px;">Windsor, Ontario | <a href ="https://www.uwindsor.ca/" target="_blank"><img src="Images/link.png" style="width:18px;"> Uwindsor.ca</a></p>
       </div>
     </div>
   </div>
@@ -406,7 +421,16 @@ M.S
       </div>
 
       <div class="row text-center mb-4 pb-2">
+        
         <div class="col-12 col-md-6 center-block">
+          <div class="row abilHov mx-5  my-2">
+            <div class="col px-1 text-left">
+              <span style="font-size: 16px;">Unity</span>
+            </div>
+            <div class="col px-1 text-right">
+              <span style="font-size: 16px;color: #1375EC;">★★★★★</span>
+            </div>
+          </div>
           <div class="row abilHov mx-5 my-2">
             <div class="col px-1 text-left">
               <span style="font-size: 16px;">Git</span>
@@ -437,14 +461,6 @@ M.S
             </div>
             <div class="col px-1 text-right">
               <span style="font-size: 16px;color: #1375EC;">★★★★★</span>
-            </div>
-          </div>
-          <div class="row abilHov mx-5  my-2">
-            <div class="col px-1 text-left">
-              <span style="font-size: 16px;">Unity</span>
-            </div>
-            <div class="col px-1 text-right">
-              <span style="font-size: 16px;color: #1375EC;">★★★★<span style="color: #c7c0bc;">★</span></span>
             </div>
           </div>
           <div class="row abilHov mx-5 my-2">
@@ -566,7 +582,7 @@ M.S
           <p>An <a href="https://apps.apple.com/us/app/id1487399478" target="_blank"
               rel="noopener noreferrer">iOS</a>/<a
               href="https://play.google.com/store/apps/details?id=com.MitchellSturba.ShapeShift">Android</a> mobile game
-            developed as an independant project to learn about mobile game development. You could say I made this "just
+            developed as an independent project to learn about mobile game development. You could say I made this "just
             for fun". Click <a href="https://www.youtube.com/watch?v=cMmL8k4C4BY" target="_blank"
               rel="noopener noreferrer">here</a> to watch the trailer.</p>
         </div>
@@ -721,6 +737,40 @@ M.S
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
     <script type="text/javascript"></script>
+
+    <!-- Script for keeping up to date with how long I've been at my current job -->
+    <script>
+      function yearsSince(date)
+      {
+        var seconds = Math.floor((new Date() - date) / 1000);
+        var interval = seconds / 31536000;
+        return Math.floor(interval) + " years ";
+      }
+
+      function timeSince(date) {
+
+          var seconds = Math.floor((new Date() - date) / 1000);
+
+          var interval = seconds / 31536000;
+          var since = "";
+
+          if (interval > 1) {
+            var time = Math.floor(interval);
+            if (time == 1)
+              since = since.concat("1 year ");
+            else 
+              since = since.concat(Math.floor(interval) + " years ");
+          }
+          interval = seconds / 2592000 % 12;
+          if (interval > 1) {
+            since = since.concat(Math.floor(interval) + 1 + " months");
+          }
+            return since;
+          }
+
+          document.getElementById("timeworked").innerHTML = "(" + timeSince(new Date(2022, 00, 10)) + ")";
+          document.getElementById("myAge").innerHTML = yearsSince(new Date(1999, 07, 31));
+    </script>
 
 </body>
 

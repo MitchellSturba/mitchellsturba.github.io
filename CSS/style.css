@@ -36,7 +36,7 @@ body{
         width: 100% !important;
     }
 
-    #centerOnSmall {
+    .centerOnSmall {
       text-align: center !important;
     }
   } 
@@ -62,8 +62,9 @@ body{
     #cont {
         width: 80%;
     }
-    #centerOnSmall {
+    .centerOnSmall {
       text-align: center !important;
+
     }
 
     #showonsmall {
@@ -90,6 +91,7 @@ body{
         width: 935px;
     }
  }
+
 
 #ProfileColor{
     border-bottom-left-radius: 10px;
@@ -146,7 +148,6 @@ html {
     border-top-right-radius: 10px;
     opacity: 0.85;
 }
-
 
 #hovWhite{
     opacity: 0.6;
