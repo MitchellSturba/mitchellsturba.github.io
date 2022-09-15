@@ -294,7 +294,7 @@ html {
 
 /* Animation */
 .softwareanim {
-  animation: animated-text 1.2s steps(29,end) 1s 1 normal both, /* faster now*/
+  animation: animated-text 1s steps(22,end) 0.2s 1 normal both, /* faster now*/
              animated-cursor 600ms steps(29,end) 6;
 }
 
